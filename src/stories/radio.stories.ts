@@ -1,23 +1,20 @@
 import type { Meta, StoryObj } from '@storybook/vue3';
 import { fn } from '@storybook/test';
-import { UiButton } from '../components/index';
+import { Radio } from '../components/index';
 import { IconNames }  from '../assets/icons';
 
 const meta = {
-  title: 'Example/Button',
-  component: UiButton,
+  title: 'Forms/Radio',
+  component: Radio,
   tags: ['autodocs'],
   argTypes: {
-    type: { control: 'select', options: ['button', 'submit', 'reset'] },
-    isFull: { control: 'boolean'},
-    iconNameLeft: { control: 'select', options: IconNames },
-    iconNameRight: { control: 'select', options: IconNames },
+    categories: { control: 'array'},
   },
   args: {
     onClick: fn(),
     title: 'Button'
   },
-} satisfies Meta<typeof UiButton>;
+} satisfies Meta<typeof Radio>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
@@ -28,6 +25,7 @@ type Story = StoryObj<typeof meta>;
  */
 export const Primary: Story = {
   args: {
-    isFull: true,
+    title: 'Radio Group',
+    categories: ['one', 'two', 'three'],
   },
 };

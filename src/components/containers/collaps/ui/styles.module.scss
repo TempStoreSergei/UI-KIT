@@ -1,0 +1,19 @@
+.collapse {
+  &__header-default {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+  &__title {
+    color: rgb(63, 140, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+  }
+  &__arrow {
+    transition: transform 0.4s ease-in-out;
+    &_rotate {
+      transform: rotate(180deg);
+    }
+  }
+}

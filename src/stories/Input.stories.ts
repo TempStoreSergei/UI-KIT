@@ -4,7 +4,7 @@ import { Radio } from '../components/index';
 import { IconNames }  from '../assets/icons';
 
 const meta = {
-  title: 'Forms/Chexbox',
+  title: 'Forms/Input',
   component: Radio,
   tags: ['autodocs'],
   argTypes: {
