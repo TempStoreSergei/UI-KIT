@@ -1,18 +1,51 @@
-# Vue 3 + TypeScript + Vite
+# Changelog
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+All notable changes to this project will be documented in this file.
 
-## Recommended IDE Setup
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## [Unreleased]
 
-## Type Support For `.vue` Imports in TS
+### Added
+- For new features.
+### Changed
+- For changes in existing functionality.
+### Deprecated
+- For soon-to-be removed features.
+### Removed
+- For now removed features.
+### Fixed
+- For any bug fixes.
+### Security
+- In case of vulnerabilities.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## [0.9.0-beta] - 2024-03-28
+### Added
+- Core global styles for resets, typography, and colors.
+- Utility classes for spacing, display, text manipulation, accessibility, animations, and positioning.
+- Basic UI elements including buttons, icons, images, links, and typography components.
+- Form elements and layouts, including input fields, select menus, checkboxes, radio buttons, and form layouts.
+- Navigation components such as breadcrumbs, pagination, tabs, and menus.
+- Layout and structural components including containers, headers, footers, and page templates.
+- Feedback components like alerts, loaders, tooltips, modals, and popups.
+- Data display components for progress indicators and tags.
+- Overlay component for bottom sheets.
+- Themes support for light and dark modes.
+- Interactions for drag and drop, swipe actions, and keyboard shortcuts.
+- Integration examples with VueUse and placeholder for other integrations.
+- Comprehensive changelog documentation format.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Changed
+- Improved file organization and naming conventions for better scalability and maintainability.
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Fixed
+- Minor bugs in the initial version of the UI kit that affected responsiveness and cross-browser compatibility.
+
+### Security
+- Addressed a security concern in dependency X, upgrading to version Y.
+
+## [0.1.0-alpha] - 2024-02-15
+### Added
+- Initial setup of the UI kit structure with placeholders for main components.
+- Basic global styles and utilities.
+
